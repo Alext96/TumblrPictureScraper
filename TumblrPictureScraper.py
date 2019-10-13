@@ -8,7 +8,7 @@ x = 2
 
 def get_image(x):
     while x < 5:
-        url = "https://the-memedaddy.tumblr.com/page/" + str(x)
+        url = "https://tumblrlinkhere" + str(x)
         x += 1
         response = requests.get(url)
         data = response.text
